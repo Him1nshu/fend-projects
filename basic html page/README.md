@@ -9,4 +9,4 @@
 
 ->Structure in a way that you can easily add styles later.
 
-->Add SEO meta tags to the website.
+->  Add SEO meta tags to the website.
