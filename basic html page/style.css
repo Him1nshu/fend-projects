@@ -1,0 +1,70 @@
+.mainbox{
+    border: solid black 2px;
+    padding:20px;
+    margin: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    align-items: center;
+}
+.tc{
+    border: solid black 2px;
+    display: flex;
+    margin: 20px;
+    padding:10px;
+}
+
+.pr{
+    
+    border: solid black 2px;
+    margin: 20px;
+    padding:10px;
+    flex: 1;
+    min-width:200px;
+}
+.stack{
+    border: solid black 2px;
+    display: block;
+    margin: 20px;
+    padding:10px;
+    flex: 2;
+    min-width: 400px;
+}
+
+.osw{
+    border: solid black 2px;
+    margin: 10px;
+    padding:10px;
+}
+.we{
+    border: solid black 2px;
+    margin:10px;
+    padding:10px;
+}
+.edu{
+    flex:1;
+    border: solid black 2px;
+    margin: 20px;
+    padding:10px;
+    
+}
+
+
+.ttc{
+    border: solid black 2px;
+    display: flex;
+    justify-content: space-between;
+
+    margin: 40px;
+    padding:40px;
+    gap:10px;
+    height: auto;
+}
+
+.t1{
+    border: solid 1px black;
+    border-radius: 30px;
+    padding: 20px;
+}
