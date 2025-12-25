@@ -1,0 +1,25 @@
+.main-box{
+    border: 5px solid black;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 10px;
+    width: 400px;
+    gap: 10px;
+    
+}
+
+body{
+        text-align: center;
+        
+        font-family: 'Times New Roman', Times, serif;
+        margin: 25px;
+        padding: 10px;
+    }
+
+.res{
+    text-align: center;
+    text-decoration: dotted;
+    
+}
