@@ -1,0 +1,11 @@
+#innerbox{
+    padding:15px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+#mainbox{
+
+    border: 5px solid black;
+}
