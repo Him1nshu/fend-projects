@@ -6,6 +6,14 @@
 }
 
 #mainbox{
-
+    
+    padding:10px;
+    margin: 5px;
     border: 5px solid black;
+    
+    display: block;
+}
+
+#result{
+    color: red;
 }
