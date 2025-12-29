@@ -24,8 +24,8 @@ function convert(){
         err2.innerText = "No TO option selected";
     }
 
-    // Celsius → Kelvin
+    // Celsius -> Kelvin
     if (ff.value === "cl" && tt.value === "kl") {
-        out.innerText = inpt+"C="+Number(inpt) + 273.15+"K";
+        out.innerText = inpt+"C="+(Number(inpt) + 273.15)+"K";
     }
 }
