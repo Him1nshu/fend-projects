@@ -11,8 +11,20 @@
     <div id="container">
         <input type="text" id="at" placeholder="article title">
         <input type="text" id="pd" placeholder="publishing date">
-        <input type="text" id="at" placeholder="content">
-        <button>Update</button>
+        <textarea id="ct" placeholder="content"></textarea>
+        <button id="up">Update</button>
     </div>
 </body>
 </html>
+
+<style>
+    #container{
+        display: inline-flex;
+        flex-direction: column;
+        gap:15px;
+    }
+    #ct{
+        
+        height: 300px;
+    }
+</style>
