@@ -15,6 +15,23 @@
         <button id="up">Update</button>
     </div>
 </body>
+<script>
+const bt=document.getElementById("up");
+bt.addEventListener("click", () => {
+  const cont = document.getElementById("ct").value;
+  const tit  = document.getElementById("at").value;
+  const dt   = document.getElementById("pd").value;
+
+  const data = { 
+    title: tit, 
+    content: cont, 
+    date: dt 
+};
+
+  localStorage.setItem("articleData", JSON.stringify(data));
+});
+</script>
+
 </html>
 
 <style>
